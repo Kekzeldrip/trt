@@ -1,0 +1,16 @@
+## Interface: 110105
+## Title: TRT - Rotation Helper
+## Notes: SimulationCraft APL-based rotation helper addon
+## Author: Kekzeldrip
+## Version: 0.1.0
+## SavedVariables: TRTDB
+## IconTexture: Interface\Icons\Spell_Nature_Lightning
+
+Core.lua
+API.lua
+Spells.lua
+APLParser.lua
+Conditions.lua
+Engine.lua
+UI.lua
+Rotations\ShamanEnhancement.lua
