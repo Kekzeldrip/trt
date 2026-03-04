@@ -256,7 +256,7 @@ function S:ActiveEnemies()
         local unit = "nameplate" .. i
         if UnitExists(unit) and UnitCanAttack("player", unit)
            and not UnitIsDead(unit)
-           and IsItemInRange(37727, unit) then  -- 40 yd range check
+           and IsItemInRange(37727, unit) then  -- Ruby Acorn (40 yd range check item)
             count = count + 1
         end
     end

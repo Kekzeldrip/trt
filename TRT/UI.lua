@@ -145,10 +145,12 @@ function UI:UpdateIcons(recommended)
         local rec = recommended and recommended[i + 1]
         if rec then
             frame.icon:SetTexture(rec.icon or "Interface\\Icons\\INV_Misc_QuestionMark")
+            frame:SetAlpha(0.65)
             frame:Show()
         else
             frame.icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
             frame:SetAlpha(0.2)
+            frame:Show()
         end
     end
 end
